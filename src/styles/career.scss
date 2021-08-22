@@ -1,0 +1,38 @@
+.career_icon_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  @include media(">=phone", "<lgphone") {
+    height: 40px;
+  }
+  @include media(">=lgphone", "<tablet") {
+    height: 40px;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 40px;
+  }
+}
+
+.career_icon_img {
+  height: 50px;
+  @include media(">=phone", "<lgphone") {
+    height: 30px;
+  }
+  @include media(">=lgphone", "<tablet") {
+    height: 30px;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 30px;
+  }
+}
+
+
+.career_btn_a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+}

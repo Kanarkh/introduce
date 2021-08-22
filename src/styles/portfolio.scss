@@ -1,0 +1,21 @@
+.portfolio_root_div {
+  width: 100%
+}
+.portfolio_toggle_h3 {
+  cursor: pointer;
+  user-select: none;
+}
+
+.portfolio_project_div {
+  margin-bottom: 12vh;
+}
+.portfolio_end_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr.solid {
+  border-top: 1px solid #000000;
+}

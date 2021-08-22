@@ -4,12 +4,12 @@ import data from "../yourdata"
 import me from "../images/happyme.jpg"
 const About = () => {
   return (
-    <div className="secion" id="about">
+    <div className="secion" id="experience">
       <div className="container">
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>Experience</h1>
             </Fade>
             <p>
               {data.aboutParaOne}
