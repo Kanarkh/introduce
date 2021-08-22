@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d743e8ee88287e98f4be613a30863992",
+    "revision": "5ef829967b03ccf46b38cdaf19fc00a6",
     "url": "/introduce/index.html"
   },
   {
-    "revision": "4202575fc2c274e74d48",
-    "url": "/introduce/static/css/2.bc1e5c15.chunk.css"
+    "revision": "b3c9482adfcb52047f00",
+    "url": "/introduce/static/css/2.c82abe56.chunk.css"
   },
   {
-    "revision": "5b53c9c52cb1ec1811b8",
-    "url": "/introduce/static/css/main.200ce1bd.chunk.css"
+    "revision": "c71c67ca454b3567735b",
+    "url": "/introduce/static/css/main.080c2d1d.chunk.css"
   },
   {
-    "revision": "4202575fc2c274e74d48",
-    "url": "/introduce/static/js/2.0ff02b0a.chunk.js"
+    "revision": "b3c9482adfcb52047f00",
+    "url": "/introduce/static/js/2.ec2c3a30.chunk.js"
   },
   {
-    "revision": "5b53c9c52cb1ec1811b8",
-    "url": "/introduce/static/js/main.c50b6d5c.chunk.js"
+    "revision": "c71c67ca454b3567735b",
+    "url": "/introduce/static/js/main.b44b6efe.chunk.js"
   },
   {
     "revision": "4e9855d0ae976226996c",
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/introduce/static/media/javascript.e99aeccd.svg"
   },
   {
-    "revision": "153887c25221c03d610afb3a82fe8cfe",
-    "url": "/introduce/static/media/mdl1.153887c2.png"
-  },
-  {
     "revision": "735c565e53a36cdb55c61f6996d9e5b5",
     "url": "/introduce/static/media/mdl10.735c565e.png"
   },
@@ -82,18 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d8b0579497c1bb5599d07e343c80d1d",
     "url": "/introduce/static/media/mdl12.9d8b0579.png"
-  },
-  {
-    "revision": "6a76cd0da1d001706b57ad03bfa74742",
-    "url": "/introduce/static/media/mdl2.6a76cd0d.png"
-  },
-  {
-    "revision": "0e40d62f2f45f0337896ab603f9f1707",
-    "url": "/introduce/static/media/mdl3.0e40d62f.png"
-  },
-  {
-    "revision": "c0da86769e4afee395b480e1cf48208d",
-    "url": "/introduce/static/media/mdl4.c0da8676.png"
   },
   {
     "revision": "7e70355ff45b7abbe202a55aeb6e0b00",
