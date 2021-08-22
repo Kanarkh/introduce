@@ -22,6 +22,7 @@ const Skills = () => {
                                         <li>Atomic Design Pattern</li>
                                         <li>Container-Presenter Pattern</li>
                                     </ul>
+                                <li>styled-components</li>
                                 <li>webpack</li>
                                 <li>Parcel</li>
                                 <li>babel</li>

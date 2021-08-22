@@ -12,13 +12,16 @@ const About = () => {
               <h1>Experience</h1>
             </Fade>
             <p>
-              {data.aboutParaOne}
+              <h2>[Frontend 선발대 / 리딩경험]</h2>
+              얄리얄리얄라셩 얄라리 얄라
               <br></br>
               <br></br>
-              {data.aboutParaTwo}
+              <h2>[성장을 위해 노력하다 보니 고통을 즐기게 되었습니다]</h2>
+              얄리얄리얄라셩 얄라리 얄라
               <br></br>
               <br></br>
-              {data.aboutParaThree}
+              <h2>[여러 대회에서 팀장을 하게된 이유]</h2>
+              얄리얄리얄라셩 얄라리 얄라
             </p>
           </div>
           <div className="image-wrapper">
