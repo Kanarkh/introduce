@@ -48,7 +48,7 @@ const Portfolio = () => {
                             <hr className="solid"/>
                             <h3>프로젝트 개요</h3>
                             <p>
-                                ethereum lite explorer 기반의 Hyperledger Besu explorer 입니다.
+                                ethereum-lite-explorer기반으로 ethereum-json-rpc를 사용하는 Hyperledger-Besu-explorer 입니다.
                             </p>
                             <h3>사용 기술 [Frontend]</h3>
                             <p>
@@ -83,11 +83,11 @@ const Portfolio = () => {
                                 </ul>
                             </p>
                             <h3 className="portfolio_toggle_h3" onClick={() => {
-                                setScreenshotState_1(!screenshotState_1)
+                                setScreenshotState_0(!screenshotState_0)
                             }}>
-                                {screenshotState_1 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_0 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
-                            {screenshotState_1 ? (
+                            {screenshotState_0 ? (
                                 <Carousel showArrows swipeable emulateTouch showThumbs={false} infiniteLoop={false}
                                           autoPlay={false}>
                                     <div>
@@ -394,8 +394,9 @@ const Portfolio = () => {
                             <h3>프로젝트 기여</h3>
                             <p>
                                 <ul>
-                                    <li>Backend 설계 및 개발</li>
-                                    <li>Frontend 페이지 개발</li>
+                                    <li>API key 생성 및 폐 관련기능 개발</li>
+                                    <li>nginx 와 node.js 를 이용해 reverse proxy 구현</li>
+                                    <li>Frontend 페이지 개발 (API Key 생성과 관리를 위한 관리자 페이지)</li>
                                 </ul>
                             </p>
                         </div>
@@ -416,7 +417,7 @@ const Portfolio = () => {
                                 rel="noopener noreferrer"
                                 // className="career_btn_a"
                             >
-                                https://nature-test-swx73qf23q-uc.a.run.app
+                                <h4>https://nature-test-swx73qf23q-uc.a.run.app</h4>
                             </a>
                             <h3>사용 기술</h3>
                             <p>

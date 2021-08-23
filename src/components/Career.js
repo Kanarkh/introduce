@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Medal from "../images/medal2.png"
+import Work from  "../images/work1.png"
 const Career = () => {
     return (
         <div className="section" id="career">
@@ -18,7 +19,11 @@ const Career = () => {
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             date="2020.06 ~ Present"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            // icon={<WorkIcon />}
+                            icon={
+                                <div className="career_icon_div">
+                                    <img className="career_icon_img" src={Work} alt="medal"/>
+                                </div>
+                            }
                         >
                             <h3 className="vertical-timeline-element-title">Platform team / 개발자</h3>
                             <h4 className="vertical-timeline-element-subtitle">(주)미디움</h4>
@@ -56,7 +61,11 @@ const Career = () => {
                             className="vertical-timeline-element--work"
                             date="2016.12 ~ 2019.02"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            // icon={<WorkIcon />}
+                            icon={
+                                <div className="career_icon_div">
+                                    <img className="career_icon_img" src={Work} alt="medal"/>
+                                </div>
+                            }
                         >
                             <h3 className="vertical-timeline-element-title">전기·전자·제어 연구원</h3>
                             <h4 className="vertical-timeline-element-subtitle">(주)알스텍</h4>
@@ -95,7 +104,6 @@ const Career = () => {
                             <h4 className="vertical-timeline-element-subtitle">한국폴리텍</h4>
                             <p>
                                 팀장, 학교 대표로 엑스포 참가<br/>
-                                대통령이 참관할 예정이었으나 탄핵으로 오지 못한 박람회<br/>
                                 몰입의 행복과 사랑받는 서비스를 만들고 싶다는 꿈을 만들어준 프로젝트
                                 <br/>
                                 <a

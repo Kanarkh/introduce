@@ -12,21 +12,22 @@ const Skills = () => {
                         </div>
                         <div className="content">
                             <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>Typescript</li>
-                                <li>React</li>
+                                <li><b>HTML</b></li>
+                                <li><b>CSS</b></li>
+                                <li><b>Javascript</b></li>
+                                <li><b>Typescript</b></li>
+                                <li><b>styled-components</b></li>
+                                <li><b>React</b></li>
                                     <ul>
                                         <li>Redux</li>
                                         <li>Atomic Design Pattern</li>
                                         <li>Container-Presenter Pattern</li>
                                     </ul>
-                                <li>styled-components</li>
                                 <li>webpack</li>
                                 <li>Parcel</li>
                                 <li>babel</li>
                                 <li>Storybook</li>
+                                <li className="gray_li">Android(Java)</li>
                             </ul>
                         </div>
                     </div>
@@ -36,11 +37,12 @@ const Skills = () => {
                         </div>
                         <div className="content">
                             <ul>
-                                <li>node.js</li>
-                                <li>Golang</li>
+                                <li>Node.js</li>
                                 <li>Docker</li>
                                 <li>MongoDB</li>
-                                <li>Redis</li>
+                                <li>C</li>
+                                <li className="gray_li">Golang</li>
+                                <li className="gray_li">Redis</li>
                             </ul>
                         </div>
                     </div>
@@ -50,12 +52,9 @@ const Skills = () => {
                         </div>
                         <div className="content">
                             <ul>
-                                <li>Git</li>
                                 <li>Linux</li>
-                                <li>Prettier</li>
-                                <li>Java</li>
-                                <li>Android(Java)</li>
-                                <li>C</li>
+                                <li>Git</li>
+                                <li>Jira & Wiki</li>
                             </ul>
                         </div>
                     </div>

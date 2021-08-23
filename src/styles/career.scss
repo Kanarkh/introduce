@@ -15,7 +15,7 @@
 }
 
 .career_icon_img {
-  height: 50px;
+  height: 40px;
   @include media(">=phone", "<lgphone") {
     height: 30px;
   }
