@@ -142,7 +142,7 @@ const Portfolio = () => {
                             <h3>프로젝트 기여</h3>
                             <p>
                                 <ul>
-                                    <li>Frontend 이슈 분배</li>
+                                    <li>Frontend 이슈 생성</li>
                                     <li>Frontend 개발</li>
                                     <li>컴포넌트 초기 개발</li>
                                     <li>필요 기술 학습후 팀원들에게 공유</li>
@@ -151,6 +151,7 @@ const Portfolio = () => {
                                     <li>디자이너와 소통</li>
                                     <li>Backend 로그인 관련 API 개발 (golang, mongodb, redis)</li>
                                     <li>Frontend docker image build</li>
+                                    <li>runtime 환경변수를 사용해 배포 후에도 endpoint 등을 변경할수 있도록 개발</li>
                                 </ul>
                             </p>
                             <h3 className="portfolio_toggle_h3" onClick={() => {
@@ -263,7 +264,7 @@ const Portfolio = () => {
                             <h3>프로젝트 기여</h3>
                             <p>
                                 <ul>
-                                    <li>Frontend 이슈 분배</li>
+                                    <li>Frontend 이슈 생성</li>
                                     <li>Frontend 개발</li>
                                     <li>필요 기술 학습후 팀원들에게 공유</li>
                                     <li>Web publish</li>
