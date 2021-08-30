@@ -44,62 +44,6 @@ const Portfolio = () => {
                     <h1>Portfolio</h1>
                     <div className="portfolio_root_div">
                         <div className="portfolio_project_div">
-                            <h2>besu-explorer</h2>
-                            <hr className="solid"/>
-                            <h3>프로젝트 개요</h3>
-                            <p>
-                                ethereum-lite-explorer기반으로 ethereum-json-rpc를 사용하는 Hyperledger-Besu-explorer 입니다.
-                            </p>
-                            <h3>사용 기술 [Frontend]</h3>
-                            <p>
-                                <span className="tag_span">
-                                    <h4>React</h4>
-                                </span>
-                                <span className="tag_span">
-                                    <h4>Typescript</h4>
-                                </span>
-                                <span className="tag_span">
-                                    <h4>styled-components</h4>
-                                </span>
-                                <span className="tag_span">
-                                    <h4>webpack</h4>
-                                </span>
-                                <span className="tag_span">
-                                    <h4>ethereum lite explorer</h4>
-                                </span>
-                                <span className="tag_span">
-                                    <h4>alethio/cms</h4>
-                                </span>
-                            </p>
-                            <h3>프로젝트 기여</h3>
-                            <p>
-                                <ul>
-                                    <li>
-                                        Transactions List page 개발
-                                    </li>
-                                    <li>
-                                        Transactions Details 개발
-                                    </li>
-                                </ul>
-                            </p>
-                            <h3 className="portfolio_toggle_h3" onClick={() => {
-                                setScreenshotState_0(!screenshotState_0)
-                            }}>
-                                {screenshotState_0 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
-                            </h3>
-                            {screenshotState_0 ? (
-                                <Carousel showArrows swipeable emulateTouch showThumbs={false} infiniteLoop={false}
-                                          autoPlay={false}>
-                                    <div>
-                                        <img src={besu1} alt="besu-img1"/>
-                                    </div>
-                                    <div>
-                                        <img src={besu2} alt="besu-img2"/>
-                                    </div>
-                                </Carousel>
-                            ) : null}
-                        </div>
-                        <div className="portfolio_project_div">
                             <h2>MDL-manager</h2>
                             <hr className="solid"/>
                             <h3>프로젝트 개요</h3>
@@ -310,7 +254,7 @@ const Portfolio = () => {
                             <hr className="solid"/>
                             <h3>프로젝트 개요</h3>
                             <p>
-                                MDL Manager은 기업 고객에 필요한 Hyperledger Fabric에서 동작하는 DApp을 서비스하는 플랫폼입니다.
+                                회사의 프로젝트인 MDL을 서버들에 설치하기 위해 필요 정보를 받고, 설치 상황을 보여주는 프로젝트 입니다.
                             </p>
                             <h3>사용 기술 [Frontend]</h3>
                             <p>
@@ -363,6 +307,62 @@ const Portfolio = () => {
                                     </div>
                                 </Carousel>) : null
                             }
+                        </div>
+                        <div className="portfolio_project_div">
+                            <h2>besu-explorer</h2>
+                            <hr className="solid"/>
+                            <h3>프로젝트 개요</h3>
+                            <p>
+                                ethereum-json-rpc와 통신하는 Blockchain Explorer입니다.
+                            </p>
+                            <h3>사용 기술 [Frontend]</h3>
+                            <p>
+                                <span className="tag_span">
+                                    <h4>React</h4>
+                                </span>
+                                <span className="tag_span">
+                                    <h4>Typescript</h4>
+                                </span>
+                                <span className="tag_span">
+                                    <h4>styled-components</h4>
+                                </span>
+                                <span className="tag_span">
+                                    <h4>webpack</h4>
+                                </span>
+                                <span className="tag_span">
+                                    <h4>ethereum lite explorer</h4>
+                                </span>
+                                <span className="tag_span">
+                                    <h4>alethio/cms</h4>
+                                </span>
+                            </p>
+                            <h3>프로젝트 기여</h3>
+                            <p>
+                                <ul>
+                                    <li>
+                                        Transactions List page 개발
+                                    </li>
+                                    <li>
+                                        Transactions Details 개발
+                                    </li>
+                                </ul>
+                            </p>
+                            <h3 className="portfolio_toggle_h3" onClick={() => {
+                                setScreenshotState_0(!screenshotState_0)
+                            }}>
+                                {screenshotState_0 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                            </h3>
+                            {screenshotState_0 ? (
+                                <Carousel showArrows swipeable emulateTouch showThumbs={false} infiniteLoop={false}
+                                          autoPlay={false}>
+                                    <div>
+                                        <img src={besu1} alt="besu-img1"/>
+                                    </div>
+                                    <div>
+                                        <img src={besu2} alt="besu-img2"/>
+                                    </div>
+                                </Carousel>
+                            ) : null}
                         </div>
                         <div className="portfolio_project_div">
                             <h2>MDLX Chain Code API 개발</h2>

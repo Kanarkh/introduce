@@ -23,6 +23,8 @@ const Skills = () => {
                                         <li>Atomic Design Pattern</li>
                                         <li>Container-Presenter Pattern</li>
                                     </ul>
+                                <li>chart.js</li>
+                                <li>Recharts</li>
                                 <li>webpack</li>
                                 <li>Parcel</li>
                                 <li>babel</li>
