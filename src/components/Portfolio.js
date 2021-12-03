@@ -435,12 +435,12 @@ const Portfolio = () => {
                         </div>
                         <div className="portfolio_end_div">
                             <a
-                                href="https://drive.google.com/file/d/1gVNKeSATLsPzP2BRII8VZK243OYvSinM/view?usp=sharing"
+                                href="https://drive.google.com/file/d/134uvfctNpghFd1qh3XA1aoTTlTE2vwmM/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="career_btn_a"
                             >
-                                <h2>2020년 이전 portfolio 구경하기 (PDF)</h2>
+                                <h2>2019년 이전 portfolio 구경하기 (PDF)</h2>
                             </a>
                         </div>
 
