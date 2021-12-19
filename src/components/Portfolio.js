@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import {Space, Button} from "antd"
 import mdlm1 from "../images/mdlm1.png"
 import mdlm2 from "../images/mdlm2.png"
 import mdlm3 from "../images/mdlm3.png"
@@ -101,7 +102,8 @@ const Portfolio = () => {
                             <h3 className="portfolio_toggle_h3" onClick={() => {
                                 setScreenshotState_1(!screenshotState_1)
                             }}>
-                                {screenshotState_1 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_1 ? (<><DownOutlined/>{" "} Close Screenshot</>) : (<>
+                                    <RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
                             {screenshotState_1 ? (
                                 <Carousel showArrows swipeable emulateTouch showThumbs={false} infiniteLoop={false}
@@ -154,7 +156,8 @@ const Portfolio = () => {
                             <h3 className="portfolio_toggle_h3" onClick={() => {
                                 setScreenshotState_4(!screenshotState_4)
                             }}>
-                                {screenshotState_4 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_4 ? (<><DownOutlined/>{" "} Close Screenshot</>) : (<>
+                                    <RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
                             {screenshotState_4 ? (
                                 <Carousel dynamicHeight showArrows swipeable emulateTouch showThumbs={false}
@@ -217,7 +220,8 @@ const Portfolio = () => {
                             <h3 className="portfolio_toggle_h3" onClick={() => {
                                 setScreenshotState_2(!screenshotState_2)
                             }}>
-                                {screenshotState_2 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_2 ? (<><DownOutlined/>{" "} Close Screenshot</>) : (<>
+                                    <RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
                             {screenshotState_2 ? (
                                 <Carousel dynamicHeight showArrows swipeable emulateTouch showThumbs={false}
@@ -288,7 +292,8 @@ const Portfolio = () => {
                             <h3 className="portfolio_toggle_h3" onClick={() => {
                                 setScreenshotState_3(!screenshotState_3)
                             }}>
-                                {screenshotState_3 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_3 ? (<><DownOutlined/>{" "} Close Screenshot</>) : (<>
+                                    <RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
                             {screenshotState_3 ? (
                                 <Carousel dynamicHeight showArrows swipeable emulateTouch showThumbs={false}
@@ -350,7 +355,8 @@ const Portfolio = () => {
                             <h3 className="portfolio_toggle_h3" onClick={() => {
                                 setScreenshotState_0(!screenshotState_0)
                             }}>
-                                {screenshotState_0 ? (<><DownOutlined/>{" "} Close Screenshot</>):(<><RightOutlined/>{" "} View Screenshot</>)}
+                                {screenshotState_0 ? (<><DownOutlined/>{" "} Close Screenshot</>) : (<>
+                                    <RightOutlined/>{" "} View Screenshot</>)}
                             </h3>
                             {screenshotState_0 ? (
                                 <Carousel showArrows swipeable emulateTouch showThumbs={false} infiniteLoop={false}
@@ -440,10 +446,19 @@ const Portfolio = () => {
                                 rel="noopener noreferrer"
                                 className="career_btn_a"
                             >
-                                <h2>2019년 이전 portfolio 구경하기 (PDF)</h2>
+                                2019년도 portfolio 구경하기
                             </a>
                         </div>
-
+                        <div className="portfolio_end_div">
+                            <a
+                                href="https://docs.google.com/presentation/d/e/2PACX-1vQirTtGC327GF7UP3G6i6MyzNQnsM9FXDRE2J70jAjUydvL8xpqXmYwYjfxdO0B2A/pub?start=false&loop=false&delayms=60000&slide=id.p1"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="career_btn_a"
+                            >
+                                2016년도 portfolio 구경하기
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

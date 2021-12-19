@@ -1,4 +1,6 @@
 import React from "react"
+import {Tag, Divider, Descriptions, } from 'antd';
+import "antd/dist/antd.css";
 
 const Skills = () => {
     return (
@@ -6,60 +8,68 @@ const Skills = () => {
             <div className="container">
                 <div className="skills-container">
                     <h1>Skills</h1>
-                    <div className="skill-table">
-                        <div className="title">
-                            <h2>Frontend</h2>
-                        </div>
-                        <div className="content">
-                            <ul>
-                                <li><b>HTML</b></li>
-                                <li><b>CSS</b></li>
-                                <li><b>Javascript</b></li>
-                                <li><b>Typescript</b></li>
-                                <li><b>styled-components</b></li>
-                                <li><b>React</b></li>
-                                    <ul>
-                                        <li>Redux</li>
-                                        <li>Atomic Design Pattern</li>
-                                        <li>Container-Presenter Pattern</li>
-                                    </ul>
-                                <li>chart.js</li>
-                                <li>Recharts</li>
-                                <li>webpack</li>
-                                <li>Parcel</li>
-                                <li>babel</li>
-                                <li>Storybook</li>
-                                <li className="gray_li">Android(Java)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="skill-table">
-                        <div className="title">
-                            <h2>Backend</h2>
-                        </div>
-                        <div className="content">
-                            <ul>
-                                <li>Node.js</li>
-                                <li>Docker</li>
-                                <li>MongoDB</li>
-                                <li>C</li>
-                                <li className="gray_li">Golang</li>
-                                <li className="gray_li">Redis</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="skill-table">
-                        <div className="title">
-                            <h2>E.T.C</h2>
-                        </div>
-                        <div className="content">
-                            <ul>
-                                <li>Linux</li>
-                                <li>Git</li>
-                                <li>Jira & Wiki</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <Divider orientation="left"><Tag color="#87d068">업무에 활용해요</Tag></Divider>
+                    <Descriptions title="Frontend">
+                        <Tag>Typescript</Tag>
+                        <Tag>Javascript</Tag>
+                        <Tag>React.js</Tag>
+                        <Tag>styled-components</Tag>
+                        <Tag>Redux</Tag>
+                        <Tag>Redux-thunk</Tag>
+                        <Tag>Redux-persist</Tag>
+                        <Tag>HTML</Tag>
+                        <Tag>CSS</Tag>
+                    </Descriptions>
+                    <br/>
+                    <Divider orientation="left"><Tag color="#2db7f5">어느정도 사용해요</Tag></Divider>
+                    <Descriptions title="Frontend">
+                        <Tag>chart.js</Tag>
+                        <Tag>webpack</Tag>
+                        <Tag>Parcel</Tag>
+                        <Tag>Storybook</Tag>
+                    </Descriptions>
+                    <Descriptions title="Backend">
+                        <Tag>Node.js</Tag>
+                        <Tag>Golang</Tag>
+                        <Tag>C</Tag>
+                    </Descriptions>
+                    <Descriptions title="Devops">
+                        <Tag>Linux</Tag>
+                        <Tag>GitHub Actions</Tag>
+                    </Descriptions>
+                    <br/>
+                    <Divider orientation="left"><Tag color="#C62828">보고 이해할 수는 있어요</Tag></Divider>
+                    <Descriptions title="Backend">
+                        <Tag>Redis</Tag>
+                        <Tag>Nginx</Tag>
+                    </Descriptions>
+                    <Descriptions title="Devops">
+                        <Tag>Docker</Tag>
+                        <Tag>Kubernetes</Tag>
+                    </Descriptions>
+                    <br/>
+                    <Divider orientation="left"><Tag color="#607D8B">개인프로젝트 경험 있어요</Tag></Divider>
+                    <Descriptions title="Frontend">
+                        <Tag>Android(Java / Kotlin)</Tag>
+                        <Tag>jQuery</Tag>
+                    </Descriptions>
+                    <br/>
+                    <Descriptions title="Backend">
+                        <Tag>Apache</Tag>
+                        <Tag>MySQL</Tag>
+                        <Tag>Couch DB</Tag>
+                        <Tag>Python:BeautifulSoup</Tag>
+                        <Tag>Hyperledger Fabric</Tag>
+                        <Tag>PHP</Tag>
+                    </Descriptions>
+                    <br/>
+                    <Divider orientation="left"><Tag color="#424242">이런 패턴을 좋아해요</Tag></Divider>
+                    <Descriptions >
+                        <Tag>React Atomic Design</Tag>
+                        <Tag>React Container-Presenter</Tag>
+                        <Tag>Redux ducks pattern</Tag>
+                    </Descriptions>
+                    <br/><br/>
                 </div>
             </div>
         </div>
